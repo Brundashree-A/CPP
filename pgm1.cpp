@@ -45,6 +45,7 @@ int main()
    
 //     return 0;
 // }
+ ////Time Complexity: O(N*log(N)) Space Complexity: O(1)\\\\\
  
 
 //  #include <iostream>
@@ -73,4 +74,5 @@ int main()
 //   cout << "The smallest element in the array is: " << min;
 //   return 0;
 // }
- 
+
+////Time Complexity: O(N) Space Complexity: O(1) \\\\\
