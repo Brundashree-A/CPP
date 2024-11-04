@@ -27,7 +27,7 @@ int main()
    
 }
 
-
+// "using sorting method"
 // #include<bits/stdc++.h>
 // using namespace std;
  
@@ -47,7 +47,7 @@ int main()
 // }
  ////Time Complexity: O(N*log(N)) Space Complexity: O(1)\\\\\
  
-
+// "using min variable"
 //  #include <iostream>
 // #include <bits/stdc++.h>
  
