@@ -1,4 +1,4 @@
-// largest number of an array
+// largest number of an array "using bruteforce -sorting"
 
 // #include<bits/stdc++.h>
 // using namespace std;
@@ -15,8 +15,10 @@
 //    cout<<"maximum number is: "<< sortArr(arr1)<<endl ;
 //    cout<<"maximum number is: "<< sortArr(arr2) ;
 
-// }
+// }Time Complexity: O(N*log(N))  Space Complexity: O(n)
 
+
+// we can also slove by:
 #include<iostream>
 #include<vector> 
 using namespace std;
@@ -37,3 +39,32 @@ int main(){
     cout<<"maximum number is: "<<largest(arr,n)<<endl;
 
 }
+
+// using max variable
+// #include <bits/stdc++.h>
+ 
+// using namespace std;
+// int findLargestElement(int arr[], int n) {
+ 
+//   int max = arr[0];
+//   for (int i = 0; i < n; i++) {
+//     if (max < arr[i]) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// }
+// int main() {
+//   int arr1[] = {2,5,1,3,0};
+//   int n = 5;
+//   int max = findLargestElement(arr1, n);
+//   cout << "The largest element in the array is: " << max << endl;
+ 
+//   int arr2[] =  {8,10,5,7,9};
+//   n = 5;
+//   max = findLargestElement(arr2, n);
+//   cout << "The largest element in the array is: " << max<<endl;
+//   return 0;
+// }
+
+// Time Complexity: O(N) Space Complexity: O(1)
