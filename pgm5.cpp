@@ -1,4 +1,5 @@
 // using two loops
+// count frequency of numbers
 #include <bits/stdc++.h>
 #include<iostream>
 using namespace std;
@@ -9,11 +10,10 @@ void countFreq(vector<int> &arr, int n)
  
     for (int i = 0; i < n; i++) {
  
-        // Skip this element if already processed
+        
         if (visited[i] == true)
             continue;
  
-        // Count frequency
         int count = 1;
         for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
