@@ -1,5 +1,5 @@
 // minimum number of an array
-// we can slove using:
+// we can slove using vector:
 #include<iostream>
 #include<vector>
 using namespace std;
