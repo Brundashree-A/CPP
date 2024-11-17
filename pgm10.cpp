@@ -1,4 +1,4 @@
-// block swapping
+// block swapping or rotate array
 
 #include<bits/stdc++.h>
 using namespace std;
