@@ -30,3 +30,4 @@ int main(){
     }
     duplicate(arr,n);
 }
+// hello world
