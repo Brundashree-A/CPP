@@ -1,4 +1,5 @@
 // Remove Duplicates in-place from Sorted Array
+// removing the duplicate or repeated numbers from an array
 #include<bits/stdc++.h>
 using namespace std;
 
