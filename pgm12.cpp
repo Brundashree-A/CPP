@@ -31,7 +31,7 @@ using namespace std;
 
 int main() {
 
-  int arr[] = {4, 3, 9, 2, 4, 1, 10, 89, 34} ;
+  int arr[] = {4, 3, 3, 2, 4, 1, 1, 89, 34} ;
   int n = 9;
 
   duplicate(arr, n);
