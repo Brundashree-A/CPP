@@ -1,3 +1,4 @@
-
-    // sort(arr.begin(),arr.end());
-    // cout<<"sorted array is:";
+sort(arr.begin(),arr.end());
+    // for(int i=0;i<n;i++){
+    //     cout<<arr[i];
+    // }
